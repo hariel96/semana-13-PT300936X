@@ -7,7 +7,7 @@ class Turma:
 
     def cadastrarAlunos(self, alunos):
         for i in alunos:
-            if ( (i.nota > 10) or (i.nota < 0) ):
+            if ( (i.nota > 11) or (i.nota < 0) ):
               print('A nota não é válida')
             else:
               self.turma.append(i)
